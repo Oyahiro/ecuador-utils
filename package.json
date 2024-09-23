@@ -1,0 +1,22 @@
+{
+  "name": "ecuador-utils",
+  "version": "1.0.0",
+  "description": "A utility library for Ecuadorian cities and identification validation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/ecuador-utils.git"
+  },
+  "keywords": ["ecuador", "cities", "identification", "validation"],
+  "author": "Tu nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
